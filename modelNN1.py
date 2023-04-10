@@ -122,7 +122,7 @@ def plot_scatter(title, labels, preds):
     v_max, v_min = max(labels), min(labels)
 
     fig, ax = plt.subplots()
-    plt.title(title+' 443')
+    plt.title(title+' 440')
 
     r2, RMSE = accuracy(labels, preds)
     num = len(labels)
